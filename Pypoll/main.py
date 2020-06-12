@@ -93,3 +93,23 @@ print(f"Tooley: {TooleyPct_format}% ({numTooleyVotes}) ")
 print("---------------------------")
 print(f"Winner: {maxvotes}")
 print("---------------------------")
+
+#write files into analysis folder, specify path, we are storing results in result.csv file inside analysis folder. 
+#analysis folder and this python script are on same folder
+output_path = os.path.join('analysis', 'results.txt')
+
+#open file using write mode
+with open(output_path, 'w') as txtfile:
+
+    #initialize txt writer
+    txtfile.write("Election Results\n")
+    txtfile.write("--------------------------\n")
+    txtfile.write(f"Total Votes:{totalVotes}\n")
+    txtfile.write("--------------------------\n")
+    txtfile.write(f"Khan: {KhanPct_format}% ({numKhanVotes})\n")
+    txtfile.write(f"Correy: {CorreyPct_format}% ({numCorreyVotes})\n")
+    txtfile.write(f"Li: {LiPct_format}% ({numLiVotes})\n")
+    txtfile.write(f"Tooley: {TooleyPct_format}% ({numTooleyVotes})\n")
+    txtfile.write("---------------------------\n")
+    txtfile.write(f"Winner: {maxvotes}\n")
+    txtfile.write("---------------------------\n")
