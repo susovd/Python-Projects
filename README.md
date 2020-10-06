@@ -29,8 +29,6 @@ In this project, I have completed the **two** Python Challenges, PyBank and PyPo
 
 ## PyBank
 
-![Revenue](Images/revenue-per-lead.png)
-
 * In this project, I created a Python script for analyzing the financial records of a company. It will give a set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`. 
 
 * My python script analyzes the records to calculate each of the following:
@@ -49,11 +47,9 @@ In this project, I have completed the **two** Python Challenges, PyBank and PyPo
 
 ## PyPoll
 
-![Vote Counting](Images/Vote_counting.png)
-
 * In this project, I am helping a small, rural town modernize its vote counting process.
 
-* I have a set of poll data called [election_data.csv](PyPoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. I created a Python script that analyzes the votes and calculates each of the following:
+* I have a set of poll data called [election_data.csv](Pypoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. I created a Python script that analyzes the votes and calculates each of the following:
 
   * The total number of votes cast
 
