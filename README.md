@@ -19,7 +19,7 @@
 ## Background
 
 
-In this project, I have completed the **two** Python Challenges, PyBank and PyPoll. There are two folders, Pybank and Pypoll, each folder corresponding to each project. 
+In this project, I have completed the **two** Python tasks, PyBank and PyPoll. There are two folders, Pybank and Pypoll, each folder corresponding to each project. 
 
 * Inside of each folder contains:
 
